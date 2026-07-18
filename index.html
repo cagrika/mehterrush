@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mehter Rush — Bandonu büyüt, kaleleri fethet!</title>
+<meta name="description" content="Mehter Rush: mehter bandonu büyüt, ritme bas, Bursa'dan Viyana'ya sefer et. Reklamsız, ailece oynanan iOS koşu oyunu.">
+<style>
+  :root{
+    --red:#b81a24; --deep-red:#8c0f16; --gold:#f5c542; --deep-gold:#d9a41f;
+    --cream:#f7f0df; --ink:#3a2417; --panel:#fffaf0;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+       background:linear-gradient(180deg,#2e63b8 0%,#7fb2e8 55%,var(--cream) 55.1%);
+       color:var(--ink);min-height:100vh}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+  header{padding:16px 0}
+  .nav{display:flex;justify-content:space-between;align-items:center}
+  .brand{font-weight:900;font-size:20px;color:#fff;text-decoration:none;text-shadow:0 2px 4px rgba(0,0,0,.3)}
+  .brand span{color:var(--gold)}
+  nav a{color:#fff;text-decoration:none;font-weight:700;font-size:14px;margin-left:16px;opacity:.9}
+  nav a:hover{opacity:1;text-decoration:underline}
+  .hero{text-align:center;padding:48px 0 40px;color:#fff}
+  .hero .drum{font-size:72px;line-height:1;filter:drop-shadow(0 6px 12px rgba(0,0,0,.35))}
+  .hero h1{font-size:44px;font-weight:900;letter-spacing:-.5px;margin:14px 0 6px;text-shadow:0 3px 8px rgba(0,0,0,.35)}
+  .hero h1 em{font-style:normal;color:var(--gold)}
+  .hero p{font-size:19px;font-weight:600;opacity:.95;text-shadow:0 2px 4px rgba(0,0,0,.3)}
+  .badge{display:inline-block;margin-top:22px;background:var(--ink);color:#fff;
+         padding:12px 26px;border-radius:999px;font-weight:800;text-decoration:none;
+         box-shadow:0 6px 16px rgba(0,0,0,.25)}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:34px 0 46px}
+  .card{background:var(--panel);border:2px solid rgba(184,26,36,.15);border-radius:20px;
+        padding:20px;box-shadow:0 4px 14px rgba(58,36,23,.08)}
+  .card .ico{font-size:30px}
+  .card h3{font-size:16px;margin:8px 0 4px;color:var(--deep-red)}
+  .card p{font-size:14px;line-height:1.5}
+  footer{padding:26px 0 40px;text-align:center;font-size:13px;color:#7a5f4b}
+  footer a{color:var(--deep-red);font-weight:700;text-decoration:none}
+  footer a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+
+<header class="wrap nav">
+  <a class="brand" href="./">Mehter <span>Rush</span></a>
+  <nav>
+    <a href="destek.html">Destek</a>
+    <a href="gizlilik.html">Gizlilik</a>
+  </nav>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div class="drum">🥁</div>
+    <h1>Mehter <em>Rush</em></h1>
+    <p>Yürü. Büyü. Kaleyi coştur!</p>
+    <a class="badge" href="#">App Store'da Yakında</a>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <div class="ico">🎺</div>
+      <h3>Bandonu Büyüt</h3>
+      <p>Kapılardan geçerek davulcu, zurnacı, kösçü ve sancaktar topla — minik takımın dev bir mehter bandosuna dönüşsün.</p>
+    </div>
+    <div class="card">
+      <div class="ico">🎵</div>
+      <h3>Müzik Seninle Büyür</h3>
+      <p>Bando kalabalıklaştıkça marşa yeni çalgılar katılır; ritme basarak finalleri kendi ellerinle kazan.</p>
+    </div>
+    <div class="card">
+      <div class="ico">🗺️</div>
+      <h3>Sefer Yolu</h3>
+      <p>Bursa'dan Viyana'ya uzanan haritada yıldız topla, kaleleri fethet, her gün yeni bir Günün Seferi'ne çık.</p>
+    </div>
+    <div class="card">
+      <div class="ico">👨‍👩‍👧</div>
+      <h3>Ailece, Gönül Rahatlığıyla</h3>
+      <p>Reklamsız, satın alması olmayan, veri toplamayan; her yaşa uygun sevimli bir koşu oyunu.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>Mehter Rush, <b>Çağrı Karaca</b> tarafından geliştirilmiştir.</p>
+  <p><a href="destek.html">Destek</a> · <a href="gizlilik.html">Gizlilik Politikası</a></p>
+</footer>
+
+</body>
+</html>
